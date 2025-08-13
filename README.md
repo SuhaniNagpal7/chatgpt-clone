@@ -68,7 +68,7 @@ A pixel-perfect ChatGPT clone built with modern web technologies, featuring mult
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/chatgpt-clone.git
+   git clone  git@github.com:SuhaniNagpal7/chatgpt-clone.git
    cd chatgpt-clone
    ```
 
@@ -192,41 +192,3 @@ Themes are managed through Tailwind CSS variables in `globals.css`. Customize co
 2. **Configure environment variables** in Vercel dashboard
 3. **Deploy** automatically on push to main branch
 
-### Docker
-```bash
-# Build the image
-docker build -t chatgpt-clone .
-
-# Run the container
-docker run -p 3000:3000 --env-file .env.local chatgpt-clone
-```
-
-## 🤝 Contributing
-
-1. **Fork the repository**
-2. **Create a feature branch**: `git checkout -b feature/amazing-feature`
-3. **Commit your changes**: `git commit -m 'Add amazing feature'`
-4. **Push to the branch**: `git push origin feature/amazing-feature`
-5. **Open a Pull Request**
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- [OpenAI](https://openai.com/) for the GPT models
-- [Anthropic](https://anthropic.com/) for the Claude models
-- [Vercel](https://vercel.com/) for the AI SDK and deployment platform
-- [Clerk](https://clerk.dev/) for authentication services
-- [ShadCN](https://ui.shadcn.com/) for the beautiful UI components
-
-## 📧 Support
-
-For support, please open an issue on GitHub or contact [your-email@example.com](mailto:your-email@example.com).
-
----
-
-**Built with ❤️ by [Your Name]**
-
-*This project is not affiliated with OpenAI or ChatGPT. It's an independent implementation for educational and demonstration purposes.* 
